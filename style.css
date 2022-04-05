@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,800;0,900;1,400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  color: #3a3a3a;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 3.8rem;
+  line-height: 4.9rem;
+}
+
+h2,
+p {
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+}
+
+q {
+  font-style: italic;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+figcaption {
+  background-color: #3a3a3a;
+  padding: 12px 10px;
+  color: #ffffff;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-header {
+  background-color: #3a3a3a;
+  padding: 18px;
+}
+
+.logo {
+  width: 260px;
+  margin: 0 auto;
+}
+
+main {
+  max-width: 712px;
+  margin: 0 auto;
+  padding: 22px 0;
+}
+
+.date {
+  color: #cccccc;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: bold;
+}
+
+.headline {
+  margin-bottom: 34px;
+}
+
+.sub-headline {
+  margin-bottom: 19px;
+  font-size: 2.2rem;
+  line-height: 2.7rem;
+}
+
+.editor {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+.editor-avatar {
+  width: 4.2rem;
+}
+
+.editor-name,
+.editor-role {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+.editor-role {
+  color: #cccccc;
+  font-weight: bold;
+}
+
+.hero-img {
+  margin-bottom: 37px;
+}
+
+main > p,
+section:first-of-type > p {
+  margin-bottom: 42px;
+}
+
+main > p:last-of-type,
+section:first-of-type > p:last-of-type {
+  margin-bottom: 32px;
+}
+
+.silk-img {
+  margin-bottom: 32px;
+}
+
+.offer {
+  margin-bottom: 35px;
+  border: 1px solid #cccccc;
+}
+
+.offer header {
+  padding: 12px 10px;
+  text-align: right;
+  color: #cccccc;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+}
+
+.offer figure {
+  margin-bottom: 20px;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+
+.offer-content {
+  padding: 0 11px;
+}
+
+.offer-content h2 {
+  margin-bottom: 16px;
+}
+
+.offer-content p {
+  margin-bottom: 18px;
+  line-height: 2.5rem;
+}
+
+.cta-btn {
+  display: block;
+  margin-bottom: 29px;
+  border-radius: 5px;
+  background-color: #ff7800;
+  padding: 12px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+}
+
+section:last-of-type > p,
+.form {
+  margin-bottom: 32px;
+}
+
+section:last-of-type > p:last-of-type {
+  margin-bottom: 11px;
+}
+
+.page-footer {
+  background-color: #f0f0f0;
+}
+
+.page-footer-content {
+  max-width: 712px;
+  margin: 0 auto;
+  padding: 28px 0 8px;
+}
+
+.page-footer-content h2 {
+  margin-bottom: 28px;
+}
+
+.page-footer-content h2 span {
+  display: block;
+}
+
+.page-footer-content ul {
+  margin-bottom: 28px;
+}
+
+.page-footer-content li {
+  list-style: none;
+  list-style-position: inside;
+  padding-left: 32px;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  background-image: url("./images/check.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 18px;
+}
+
+.cta-btn-wrapper {
+  padding: 0 11px;
+}
