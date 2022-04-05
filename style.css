@@ -13,7 +13,6 @@
 body {
   color: #3a3a3a;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.6rem;
 }
 
 h1 {
@@ -48,6 +47,8 @@ a {
   text-decoration: none;
 }
 
+/* HEADER  */
+
 .page-header {
   background-color: #3a3a3a;
   padding: 18px;
@@ -58,17 +59,26 @@ a {
   margin: 0 auto;
 }
 
+/* MAIN  */
+
 main {
   max-width: 712px;
   margin: 0 auto;
   padding: 22px 0;
+  display: flex;
+  flex-direction: column;
 }
 
-.date {
+.date-d,
+.date-m {
   color: #cccccc;
   font-size: 1.4rem;
   line-height: 1.8rem;
   font-weight: bold;
+}
+
+.date-m {
+  display: none;
 }
 
 .headline {
@@ -79,6 +89,10 @@ main {
   margin-bottom: 19px;
   font-size: 2.2rem;
   line-height: 2.7rem;
+}
+
+.orange-divider {
+  display: none;
 }
 
 .editor {
@@ -126,7 +140,7 @@ section:first-of-type > p:last-of-type {
   border: 1px solid #cccccc;
 }
 
-.offer header {
+.offer-header {
   padding: 12px 10px;
   text-align: right;
   color: #cccccc;
@@ -141,7 +155,7 @@ section:first-of-type > p:last-of-type {
 }
 
 .offer-content {
-  padding: 0 11px;
+  padding: 0 11px 29px;
 }
 
 .offer-content h2 {
@@ -155,7 +169,7 @@ section:first-of-type > p:last-of-type {
 
 .cta-btn {
   display: block;
-  margin-bottom: 29px;
+  /* margin-bottom: 29px; */
   border-radius: 5px;
   background-color: #ff7800;
   padding: 12px;
@@ -175,6 +189,8 @@ section:last-of-type > p:last-of-type {
   margin-bottom: 11px;
 }
 
+/* FOOTER  */
+
 .page-footer {
   background-color: #f0f0f0;
 }
@@ -182,7 +198,7 @@ section:last-of-type > p:last-of-type {
 .page-footer-content {
   max-width: 712px;
   margin: 0 auto;
-  padding: 28px 0 8px;
+  padding: 28px 0 37px;
 }
 
 .page-footer-content h2 {
@@ -211,4 +227,86 @@ section:last-of-type > p:last-of-type {
 
 .cta-btn-wrapper {
   padding: 0 11px;
+}
+
+/* MEDIA  */
+
+@media (max-width: 600px) {
+  main {
+    padding: 20px 10px;
+  }
+
+  .hero-img {
+    order: -9;
+  }
+
+  .headline {
+    order: -8;
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    font-weight: 900;
+  }
+
+  .sub-headline {
+    order: -7;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+  }
+
+  .orange-divider {
+    order: -6;
+    display: block;
+    width: 108px;
+    margin: 0 auto 30px;
+    border-top: 5px solid #ff7800;
+  }
+
+  .editor {
+    order: -5;
+    margin: 0 auto;
+  }
+
+  .editor-avatar,
+  .editor-role {
+    display: none;
+  }
+
+  .date-d {
+    display: none;
+  }
+
+  .date-m {
+    order: -4;
+    display: block;
+    margin: 0 auto 22px;
+  }
+
+  .bold-text {
+    font-weight: bold;
+  }
+
+  .offer-header {
+    text-align: center;
+  }
+
+  .offer figure {
+    margin-bottom: 0;
+  }
+
+  .offer-content {
+    background-color: #3a3a3a;
+    padding: 17px 11px 20px;
+    color: #ffffff;
+  }
+
+  .offer-content h2 {
+    display: none;
+  }
+
+  .page-footer-content {
+    padding: 28px 10px 37px;
+  }
 }

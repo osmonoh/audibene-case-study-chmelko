@@ -18,8 +18,12 @@ const months = [
 ];
 const month = months[date.getMonth()];
 const year = date.getFullYear();
-
-const timeTag = document.querySelector(".date");
-timeTag.textContent = `${day} ${month}, ${year}`;
 const monthDT = (date.getMonth() + 1).toString().padStart(2, "0");
-timeTag.dateTime = `${year}-${monthDT}-${day}`;
+
+const timeTagDesktop = document.querySelector(".date-d");
+timeTagDesktop.textContent = `${day} ${month}, ${year}`;
+timeTagDesktop.dateTime = `${year}-${monthDT}-${day}`;
+
+const timeTagMobile = document.querySelector(".date-m");
+timeTagMobile.textContent = `${day}/${monthDT}/${year}`;
+timeTagMobile.dateTime = `${year}-${monthDT}-${day}`;
