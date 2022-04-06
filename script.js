@@ -22,8 +22,10 @@ const monthDT = (date.getMonth() + 1).toString().padStart(2, "0");
 
 const timeTagDesktop = document.querySelector(".date-d");
 timeTagDesktop.textContent = `${day} ${month}, ${year}`;
-timeTagDesktop.dateTime = `${year}-${monthDT}-${day}`;
 
 const timeTagMobile = document.querySelector(".date-m");
 timeTagMobile.textContent = `${day}/${monthDT}/${year}`;
-timeTagMobile.dateTime = `${year}-${monthDT}-${day}`;
+
+[timeTagDesktop, timeTagMobile].forEach(
+  (item) => (item.dateTime = `${year}-${monthDT}-${day}`)
+);
