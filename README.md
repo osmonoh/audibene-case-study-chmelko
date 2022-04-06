@@ -1,7 +1,25 @@
+# SOLUTION: Frontend developer case study
+
+This is my solution for the Frontend developer case study.
+
+To ensure the cross browser compatibility I have used PostCSS with Autoprefixer plugin. I have kept the CSS file without prefixes just for the reference.
+
+Please see the live preview (deployed on Netlify):
+
+https://audibene-case-study.netlify.app/
+
+I look forward to discussing my solution during the interview.
+
+---
+
+---
+
+### Original README with the instructions bellow...
+
 Frontend developer case study
 Case study task for potential acquisition frontend developers
 
-We would like you to create a simple landing page with the given design.  Further styling details can be found below.  To display the form simply use the image provided as a place holder.
+We would like you to create a simple landing page with the given design. Further styling details can be found below. To display the form simply use the image provided as a place holder.
 
 A major part of the role is taking a landing page design and building it into live pages that generate us leads.
 
@@ -11,28 +29,32 @@ https://xd.adobe.com/view/261d1ce5-915d-4b13-4049-5e905cd7e67b-502c/
 
 All images can be found in the images folder.
 
-The goal of the case study is to see how you approach coding and building a page from a mock up.  We are not looking for a perfect page build and please don’t spend too long on it.
+The goal of the case study is to see how you approach coding and building a page from a mock up. We are not looking for a perfect page build and please don’t spend too long on it.
 
 Good luck
 
 ### Requirements:
+
 - Page should be responsive,
--	Our standard break point is at 600px.
--	Page should be cross browser compatible
--	The date should be dynamic and be 2 days behind the current date.
--	Use the image provided to display the form color matching is not required.
--	Use the provided image assets and chose the appropriate size and format.
--	Make sure everything is performance optimized
--	Buttons(CTA’s) do not have to be clickable or link anyway but showing they are interactive elements is a plus.
+- Our standard break point is at 600px.
+- Page should be cross browser compatible
+- The date should be dynamic and be 2 days behind the current date.
+- Use the image provided to display the form color matching is not required.
+- Use the provided image assets and chose the appropriate size and format.
+- Make sure everything is performance optimized
+- Buttons(CTA’s) do not have to be clickable or link anyway but showing they are interactive elements is a plus.
 
 ### Please use:
--	Modern HTML, CSS and javascript to create the landing page.
--	Page should be IE 11-safe.
+
+- Modern HTML, CSS and javascript to create the landing page.
+- Page should be IE 11-safe.
 
 ### Submission
+
 Submission can be either a zip file containing the html, css files and assets folder or a link to a git repo.
 
 ## Text:
+
 **Headline:**
 How 2 Germans Are Changing Lives With This Amazing Hearing Aid
 
@@ -65,8 +87,9 @@ As of January 2020, hear.com has partnered with over 400 hearing care specialist
 It’s really no surprise that with this level of innovation, hear.com is gaining momentum. Over the next few months, the company has plans to expand their operations internationally. They have an aggressive strategy in place to open more offices and partner locations in India, Europe and the U.S.
 
 **Image Text:**
-1.	hear.com founders
-2.	Signia Silk is the most discreet hearing aid in the world.
+
+1. hear.com founders
+2. Signia Silk is the most discreet hearing aid in the world.
 
 **Advertisement/Double offer:**
 1,000 test listeners wanted
@@ -76,15 +99,17 @@ Register here for free »
 **Form Headline:**
 You can check if you qualify for an in-store trial below
 Footer:
-Check now if you qualify to test this new hearing aid with hear.com. 
+Check now if you qualify to test this new hearing aid with hear.com.
 Are you:
--	50 years or older
--	Having trouble hearing
--	Living in India
+
+- 50 years or older
+- Having trouble hearing
+- Living in India
 
 Check if you qualify »
 
 ### Styling:
+
 **Page max-width:** 712px
 **Text:** #3a3a3a
 **Orange Buttons/CTAs:** #FF7800
@@ -97,15 +122,17 @@ Check if you qualify »
 **font-family:** 'Montserrat', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,800;0,900;1,400&display=swap');
 
-**p:** 
--	18px
--	line-height: 32px
+**p:**
 
-**h1:** 
--	38px
--	line-height: 49px
+- 18px
+- line-height: 32px
 
-**h2:** 
--	18px
--	line-height: 32px
+**h1:**
 
+- 38px
+- line-height: 49px
+
+**h2:**
+
+- 18px
+- line-height: 32px
